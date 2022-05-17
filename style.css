@@ -1,0 +1,41 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+.wrapper{
+    min-height:100%;
+}
+header{
+    position:fixed;
+    top:0;
+    width:100vw;
+    padding:0 0 1rem;
+    background-color:lightgreen;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    border-radius:5px;
+    float:left;
+    overflow:hidden;
+    box-sizing:border-box;
+    margin:0;
+    border:2px;
+    border-style:none;
+    background:green;
+}
+a{
+    text-decoration: none;
+    text-align:center;
+    padding:7px 20px 0px 20px;
+}
+footer{
+    position:relative;
+    height:1.2rem;
+    text-align:center;
+
+}
+a{
+    border:3px green;
+}
