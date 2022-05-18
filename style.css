@@ -23,12 +23,12 @@ header{
 #heroImage h1,#scrollButtonDown{
     position:absolute;
     text-align:center;
-    padding: 1rem;
     bottom:50%;
-    left:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 #heroImage h1{
-    margin:0 0 3rem 0;
+    color:antiquewhite;
 }
 nav{
     display:inline-block;
