@@ -6,14 +6,19 @@ body,html{
     min-height:100%;
 }
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     width:100vw;
     padding:0 0 1rem;
     background-color:lightgreen;
+    margin:0;
+}
+nav{
+    display:inline-block;
 }
 ul{
     list-style-type:none;
+    margin:0 0 1rem 0;
 }
 li{
     border-radius:5px;
@@ -21,8 +26,7 @@ li{
     overflow:hidden;
     box-sizing:border-box;
     margin:0;
-    border:2px;
-    border-style:none;
+    border:none;
     background:green;
 }
 a{
@@ -36,6 +40,9 @@ footer{
     text-align:center;
 
 }
-a{
-    border:3px green;
+#scrollButton{
+    display:none;
+    position:fixed;
+    bottom: 50px;
+    right:20px;
 }
