@@ -65,15 +65,12 @@ footer{
     bottom: 50px;
     right:20px;
 }
-img{
+.indexImg{
     display:inline;
     width:100%;
 }
 p{
     text-indent:1.5rem;
-}
-#hImg{
-    width:100%;
 }
 @media only screen and (max-width: 800px) {
     .wrapper{
@@ -82,7 +79,4 @@ p{
     img{
         width:100vw;
     }
-}
-#gitHubIcon{
-    width:20px;
 }
