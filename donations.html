@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="donations.css">
 </head>
 <body>
     <header>
@@ -34,8 +34,82 @@
     <!-- Rest of Website Here -->
     <button id="scrollButton" onclick="topScroll()">To Top</button> <!--Button Scrolls to top-->
     </section>
-    <footer> Copyright &copy; 2022 * Fictional Group Here * <a href="https://github.com/Justokes1/code4Justice">
-        <img src="assets/githubicon.png" width="20px" height="20px" ></a></footer>
-        <script src="script.js"></script>
+
+
+    <!--Start of Donations page -->
+
+<div class="container">
+    <div>
+    <h1>Support the Code for Justice Initiative!</h1>
+    <p>Your contribution is critical to our efforts to end mass incarceration and excessive punishment, challenge racial and economic injustice, and protect basic human rights for the most vulnerable.  Thank you!</p>
+    <br>
+    <p>Code for Justice is a nonprofit organization and all donations are tax deductible to the extent allowed by law and do not represent payment for goods or services received.  Code for Justice devotes over 94% of expenses to core program services.</p>
+    <br>
+    <p>To send a donation by check, please mail to: Code for Justice - 123 Main Street, 28223 Charlotte, NC</p>
+<!-- Donation Inputs -->
+<p id="amount-label">Choose a one-time amount</p>
+<!-- Donation buttons, for viewer -->
+    <div class="amount">
+        <button class="button buttonW">25$</button>
+        <button class="button buttonX">50$</button>
+        <button class="button buttonY">100$</button>
+        <button class="button buttonZ">500$</button>
+
+        <label type="text" id="amount-option">Other:</label>
+        <input type="text">
+    <br>
+        <input type="checkbox" id="checkbox">
+        <label type="checkbox">Dedicate my donation in honor or memory of someone.</label>
+    </div>
+    <!-- Donator Information Form -->
+<p class="person-info">Your Information</p>
+
+    <form class="donation-form">
+        <div class="donation-tablerow">
+        <label type="donator-name">Recipient - First Name:</label>
+        <input id="name" type="text" placeholder="First name">
+        <br>
+        <label type="donator-lastname">Recipient - Last Name:</label>
+        <input id="lastname" type="text" placeholder="Last name">
+        </div>
+
+        <div class="donation-table">
+            <label type="recipient-email">Recipient -  Email:</label>
+            <input id="email" type="text" placeholder="@">
+        </div>
+
+        <div class="donation message">
+            <textarea id="message" type="text" placeholder="Your message..."></textarea>
+        </div>
+        <!--Instead of submit button, buttons will have payment methods-->
+
+        <button class="button button1">PayPal</button>
+        <button class="button button2">Credit Card</button>
+        <button class="button button3">Bank Account</button>
+    </form>
+    </div>
+
+    <div id="container2">
+
+        <h2>Questions?</h2>
+        <br> 
+        <li>Will I recieve a reciept?</li>
+        <li>Is my donation secure?</li>
+        <li>Can I donate over the phone?</li>
+        <li>How can I make a gift using PayPal?</li>
+
+    </div>
+</div>
+
+
+        
+
+<button id="scrollButton" onclick="topScroll()">To Top</button> <!--Button Scrolls to top-->
+<footer> Copyright &copy; 2022 * Fictional Group Here * <a href="https://github.com/Justokes1/code4Justice">
+    <img src="assets/githubicon.png" width="20px" height="20px" ></a></footer>
+    <script src="script.js"></script>
+       
+
+  
 </body>
 </html>
