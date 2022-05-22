@@ -79,11 +79,14 @@ p{
 .articleCenter h1{
     font-size:2rem;
 }
-.articleBorder{
+.buttonBox{
     border:.25rem solid white; 
     border-radius:1.25rem;
     margin: 1rem 0 1rem 0;
     padding: 1rem 0 1rem 0;
+    width:100%;
+    font-size:1rem;
+    display:block;
 }
 .footerImg{
     height:20px;
