@@ -1,0 +1,209 @@
+body{
+    background: #e2dedb;
+    margin: 10;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+p {
+    text-align: justify;
+    margin: 20px;
+    padding: auto;
+    font-size: large;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+/* grid container styling */ 
+
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px 15px;
+    height: 1500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#container2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:  1px solid white;
+    height: 400px;
+    align-content: space-around;
+    margin-left: 30px;
+    
+}
+
+/* donation amount buttons     */
+
+#amount-label{ 
+    font-family: 'Lato', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+.amount {
+    font-size: 16px;
+    box-sizing: inherit;
+    font-family: 'Lato', sans-serif;
+    line-height: 80px;
+    text-align: center;
+    
+}
+.buttonW{
+    background-color: white; 
+    color: black; 
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttonW:hover {
+    background-color: grey;
+    color: white; 
+}
+.buttonX {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .buttonX:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+  .buttonY {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .buttonY:hover {
+    background-color: grey;
+    color: white;
+  }
+  .buttonZ {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .buttonZ:hover {
+    background-color: grey;
+    color: white;
+  }
+
+.person-info{
+    font-weight: bold;
+    margin-top: 10%;
+}
+#form {
+    
+  width: 500px;
+  margin: 50px auto 100px auto;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.checkbox{
+    margin-bottom: 10px;
+    width: 10px;
+    height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+}
+.donation-form {
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+    line-height: 40px
+}
+textarea {
+    
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+}
+
+/*                       button stylings                */ 
+
+.button{
+    background-color: red; /* Red */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button1:hover {
+    background-color: grey;
+    color: white; 
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .button2:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+
+
+  
