@@ -24,13 +24,13 @@ http.onreadystatechange = function() {
         const jobApi=JSON.parse(http.responseText);
         const jobs=jobApi.jobs;
         let html="";
-        html+= `<div class='job' id='totalJobs'> <b> Total Jobs</b> ${jobApi.totalCount} </div></br>`;
+        html+= `<div id='totalJobs'> <b> Total Jobs</b> ${jobApi.totalCount} </div></br>`;
         for (i=0;i<jobs.length;i++){
-            html+=`<div class='job'><p>Job: ${jobs[i].title}&nbsp;&nbsp;&nbsp;&nbsp; location: ${jobs[i].location
+            html+=`<div class='job'><p>${i+1}&nbsp;&nbsp;&nbsp;&nbsp; Job: ${jobs[i].title}&nbsp;&nbsp;&nbsp;&nbsp; location: ${jobs[i].location
             }&nbsp;&nbsp;&nbsp;&nbsp; company:  ${jobs[i].company
             }&nbsp;&nbsp;&nbsp;&nbsp; link: </p> <a class ='jobUrl' href="${jobs[i].link}">Link</a>`;
         }
-        document.getElementById("jTitle").innerHTML=html;
+        document.getElementById("apiResults").innerHTML=html;
 
     }
 }

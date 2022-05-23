@@ -4,38 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">  
+    <title>FREEDOM | Resources</title>
 </head>
 <body>
+
     <header>
+  
+        <h1><a href="../../index.html" class="logo">FREEDOM</a></h1>
+    
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="moreInfo.html">More Info</a> <!-- Page 2 - Can be changed and renamed.-->
-                </li>
-                <li>
-                    <a href="resources.html">Resources</a> <!--Resources-->
-                </li>
-                <li>
-                    <a href="donations.html">Donations</a> <!--Donations Page-->
-                </li>
-                <li>
-                    <a href="contact.html">Contact Form</a> <!--Contact Form-->
-                </li>
-            </ul>
+          <ul class="nav-menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    
+          <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </nav>
+    
     </header>
-    <section class="wrapper">
-    <!-- Rest of Website Here -->
-    <button id="scrollButton" onclick="topScroll()">To Top</button> <!--Button Scrolls to top-->
+
+
+    
+    <section id="api">
+
+        <article id="apiSearch">
+            <h2>Job Search</h2>
+            <label for="keyTerm">keywords:</label>
+            <input type="text" id="keyTerm" name="keyTerm"><br>
+            <label for="locatHtml">Location:</label>
+            <input type="text" id="locatHTML" name="locatHTML"><br>
+            <button onclick="receiveInput(); http.send(params);"> click me to search</button>
+            <button onclick="http.open(postKey, url + key, true)"> click me to reset</button>
+        </article>
+
+        <article id="apiResults">
+        <!-- Prints results from Api Search -->
+        </article>
+
     </section>
-    <footer> Copyright &copy; 2022 * Fictional Group Here * <a href="https://github.com/Justokes1/code4Justice">
-        <img src="assets/githubicon.png" width="20px" height="20px" ></a></footer>
-        <script src="script.js"></script>
+
+
+    <div class="line"></div>
+
+    <footer>
+        <a href=""><img src="" alt=""></a>  
+        <p>Copyright &copy; 2022 | All Rights Reserved | The Freedom Alliance</p>
+    </footer>
+
+    <script src="../js/script.js"></script> 
+    <script src="../js/api.js"></script>
 </body>
 </html>
