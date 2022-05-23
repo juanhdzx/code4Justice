@@ -191,6 +191,43 @@ h2 {
   margin: 1rem auto;
   border-radius: 1px;
 }
+/* STYLES FOR RESOURCES*/
+#api{
+  margin:auto;
+  margin-top:1rem;
+  border:#1B1B1B 2px solid;
+  width:60%;
+  text-align:center;
+  max-height: 80vh;
+  overflow:hidden;
+}
+
+#api *{
+  margin: .8rem 0 .8rem 0;
+}
+#apiResults{
+  height:200px;
+  overflow:scroll;
+  text-align:left;
+  margin-right:1rem;
+}
+#totalJobs{
+  text-align:center;
+}
+.job p{
+  display:inline;
+}
+#resources{
+  text-align:center;
+  margin: 1rem 10rem 1rem 10rem;
+  border:#1B1B1B 2px solid;
+}
+#resources a:visited{
+  color:green;
+}
+.resourceArticle{
+  margin:1rem;
+}
 
 /* STYLES FOR RESOURCES */
 
@@ -391,11 +428,13 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 
+
   /* DONATIONS */
 
   .donate {
     grid-template-columns: repeat(2,1fr);
   }
+
 
   /* CONTACT */
 
