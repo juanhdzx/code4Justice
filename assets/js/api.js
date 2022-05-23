@@ -24,7 +24,7 @@ http.onreadystatechange = function() {
         const jobApi=JSON.parse(http.responseText);
         const jobs=jobApi.jobs;
         let html="";
-        html+= `<div id='totalJobs'> <b> Total Jobs</b> ${jobApi.totalCount} </div></br>`;
+        html+= `<div id='totalJobs'> <b> Total Jobs</b> ${jobApi.totalCount} </div>`;
         for (i=0;i<jobs.length;i++){
             html+=`<div class='job'><p>${i+1}&nbsp;&nbsp;&nbsp;&nbsp; Job: ${jobs[i].title}&nbsp;&nbsp;&nbsp;&nbsp; location: ${jobs[i].location
             }&nbsp;&nbsp;&nbsp;&nbsp; company:  ${jobs[i].company
