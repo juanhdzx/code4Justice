@@ -97,6 +97,15 @@ nav {
   background-position: center;
 }
 
+.donate-hero {
+  width: 100%;
+  height: 75vh;
+  background: url(../img/say.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
 /* STYLES FOR HOMEPAGE */
 
 h2 {
@@ -183,6 +192,118 @@ h2 {
   border-radius: 1px;
 }
 
+/* STYLES FOR DONATIONS */
+
+.donate {
+  display: grid;
+  grid-gap: 1rem;
+  max-width: 1200px;
+  margin: 1rem auto;
+  margin-bottom: 1rem;
+}
+
+
+.support ul li {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.pay h3 {
+  text-align: center;
+}
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 16px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-evenly;
+  height: 25vh;
+}
+
+button {
+  border: none;
+  padding: 1rem 10px;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+}
+
+.faq ul li{
+  text-align: center;
+  padding: 1rem;
+}
+
+.checkbox{
+  margin-bottom: 10px;
+  width: 10px;
+  height: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.information {
+  margin: auto;
+  align-content: center;
+}
+
+.information h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+.donation-form input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  padding: .5rem;
+  margin: .5rem auto;
+}
+
+.donation-form {
+  margin-top: 50px;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 40px;
+  line-height: 40px;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+}
+
+.method {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
 /* STYLES FOR FOOTER */
 
 footer {
@@ -252,6 +373,15 @@ footer {
   .cards { 
     grid-template-columns: repeat(3, 1fr);
   }
+
+  /* DONATIONS */
+
+  .donate { 
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+  }
+
+  
 
   /* CONTACT */
 
