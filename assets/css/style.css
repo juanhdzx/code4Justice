@@ -22,6 +22,8 @@ header {
   padding: 1rem 2rem;
   color: white;
   background-color: black;
+  position: sticky;
+  top:0;
 }
 
 .logo {
@@ -46,7 +48,9 @@ nav {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   margin: auto;
   transition: 0.5s;
-  background-color: blanchedalmond;
+  background-color: black;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 
 .nav-menu.active {
@@ -56,6 +60,7 @@ nav {
 .nav-menu li {
   margin: 2rem 0;
   list-style: none;
+  color: black;
 }
 
 .burger {
@@ -75,16 +80,21 @@ nav {
 
 .home-hero {
   width: 100%;
-  height: 50vh;
-  size: cover;
+  height: 75vh;
+  background: url(../img/protest.jpg);
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .about-hero {
   width: 100%;
-  height: 50vh;
-  size: cover;
+  height: 75vh;
+  background: url(../img/say.jpg);
+  background-size: cover;
   overflow: hidden;
+  background-position: center;
 }
 
 /* STYLES FOR HOMEPAGE */
@@ -156,6 +166,10 @@ h2 {
   font-weight: 900;
 }
 
+.card img {
+  margin: 1rem;
+}
+
 .card:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -164,7 +178,7 @@ h2 {
 .line {
   height: 2px;
   width: 75%;
-  background-color: black;
+  background-color: #1B1B1B;
   margin: 1rem auto;
   border-radius: 1px;
 }
