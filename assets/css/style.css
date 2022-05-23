@@ -13,6 +13,10 @@
   color: white;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 /* STYLES FOR NAV */
 
 header {
@@ -20,14 +24,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  color: white;
-  background-color: black;
+  color: #FFFFFA;
+  background-color: #201E1F;
   position: sticky;
   top:0;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
@@ -48,7 +52,7 @@ nav {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   margin: auto;
   transition: 0.5s;
-  background-color: black;
+  background-color: #201E1F;
   font-size: 1.2rem;
   letter-spacing: 2px;
 }
@@ -72,7 +76,7 @@ nav {
   display: block;
   width: 25px;
   height: 5px;
-  background-color:white;
+  background-color:#FFFFFA;
   margin: 5px auto;
 }
 
@@ -121,18 +125,22 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 3px;
-  margin-bottom: 2rem;
+  background-color: #FF312E;
+  color: #F2EFE9;
+  border: #201E1F solid 3px;
+  margin: 2rem auto;
+  width: 70%;
+  padding: 1rem;
 }
 
 .wrapper {
   display: grid;
   grid-gap: 1rem;
   max-width: 1200px;
-  margin: auto;
-  margin-bottom: 1rem; 
+  margin: 1rem auto;
 }
 
 .wrapper h3 {
@@ -175,6 +183,8 @@ h2 {
 .cards h3 {
   font-size: 2rem;
   font-weight: 1000;
+  color: #201E1F;
+  margin: 1rem;
 }
 
 .card {
@@ -194,10 +204,11 @@ h2 {
 }
 
 .line {
-  height: 2px;
+  height: 3px;
   width: 75%;
-  background-color: #1B1B1B;
+  background-color: #FF312E;
   margin: 1rem auto;
+  border: #201E1F solid 1px;
   border-radius: 1px;
 }
 /* STYLES FOR RESOURCES*/
@@ -457,7 +468,7 @@ footer {
     box-shadow: none;
     list-style: none;
     transition: 0ms;
-    background-color: black;
+    background-color: transparent;
   }
 
   .nav-menu li {
