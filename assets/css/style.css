@@ -374,15 +374,20 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* DONATIONS */
-
-  .donate { 
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+  /* Resources*/
+  #api{
+    margin:auto;
+    margin-top:1rem;
+    border:#1B1B1B 2px solid;
+    width:60%;
+    text-align:center;
   }
-
-  
-
+  #api *{
+    margin: .8rem 0 .8rem 0;
+  }
+  .job p{
+    display:inline;
+  }
   /* CONTACT */
 
   /* .contact-us { 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="keyTerm">keywords:</label>
+        <input type="text" id="keyTerm" name="keyTerm"><br>
+        <label for="locatHtml">Location:</label>
+        <input type="text" id="locatHTML" name="locatHTML"><br>
+        <button onclick="receiveInput(); http.send(params);"> click me to search</button>
+        <button onclick="http.open(postKey, url + key, true)"> click me to reset</button>
+    </div>
+    <div id="container">
+        <p id="jTitle"></p><br>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
