@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 10px;
+    justify-content: center;
+    height: 1000px;
+}
+
+.box {
+    background-color: red;
+    padding: 50px;
+    margin: 10px;
+    color: white;
+    font-size: Large;
+}
+.five {
+    background-color: yellow;
+    order: -1;
+}

@@ -48,3 +48,14 @@ function deleteTask () {
         element.classList.contains('delete_task') ? element.remove() : element; //this will remove the task(s)
     });
 };
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const task = input.value;
+
+    if (!task) {
+        alert ("Please type in a task!");
+        return;
+
+    };
+});

@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 4000,
+            "driver": "MySQL",
+            "name": "mysql",
+            "database": "ecom",
+            "username": "root",
+            "password": "Password"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 4000,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "username": "root",
+            "name": "project",
+            "database": "all"
+        }
+    ]
+}
